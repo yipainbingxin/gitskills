@@ -34,10 +34,10 @@
    
    //App版本号
    NSString *string= [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
-    
    NSLog(@"----------%@",string);
     
-    NSLog(@"----------冰冰添加到了master的分支上");
+   NSLog(@"----------冰冰添加到了master的分支上");
+
 
     
     
