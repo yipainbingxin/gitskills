@@ -16,6 +16,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title=@"基础动画";
+    NSLog(@"基础动画的使用");
+    
     
     
 }
