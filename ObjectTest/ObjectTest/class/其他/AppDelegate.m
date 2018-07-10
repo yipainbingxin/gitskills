@@ -34,9 +34,9 @@
    
    //App版本号
    NSString *string= [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
-    
    NSLog(@"----------%@",string);
-    
+    NSLog(@"----------我是新添加的内容哦88888888");
+
     
     
     
