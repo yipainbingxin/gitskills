@@ -36,6 +36,7 @@
    NSString *string= [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
    NSLog(@"----------%@",string);
     NSLog(@"----------我是新添加的内容哦88888888");
+    NSLog(@"----------我是新添加的内容哦master 99999999");
 
     
     
