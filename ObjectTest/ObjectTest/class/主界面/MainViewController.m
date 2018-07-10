@@ -32,7 +32,7 @@
 #import "LikeBtnController.h"
 //#import "NetAndHudController.h"
 #import "HudAleretController.h"
-
+#import "AnimateVC.h"
 @interface MainViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 {
@@ -55,7 +55,7 @@
     tableView.delegate=self;
     tableView.dataSource=self;
     [self.view addSubview:tableView];
-    _titleArray=@[@"自定义瀑布流",@"顶部滑动最全",@"空白页提示",@"键盘自动适应UIView",@"最全的图片轮播",@"跑马灯",@"相片横向滑动",@"超级富文本",@"HUD提示框1",@"HUD提示框2",@"提示框和请求的封装",@"省市区三级联动",@"未读消息提醒",@"JSWave(头部波浪)",@"仿余额宝数字渐慢跳动效果",@"九宫格抽奖",@"实际的网络状态",@"键盘遮挡处理",@"弹框和三级联动集合",@"时间之间的判断",@"上下轮播",@"加入购物车动画",@"单元格的单选和多选",@"倒计时",@"多选图片库",@"点赞动画"];
+    _titleArray=@[@"自定义瀑布流1",@"顶部滑动最全2",@"空白页提示3",@"键盘自动适应UIView4",@"最全的图片轮播5",@"跑马灯6",@"相片横向滑动7",@"超级富文本8",@"HUD提示框9",@"HUD提示框10",@"提示框和请求的封装11",@"省市区三级联动12",@"未读消息提醒13",@"JSWave(头部波浪)14",@"仿余额宝数字渐慢跳动效果15",@"九宫格抽奖16",@"实际的网络状态17",@"键盘遮挡处理18",@"弹框和三级联动集合19",@"时间之间的判断20",@"上下轮播21",@"加入购物车动画22",@"单元格的单选和多选23",@"倒计时24",@"多选图片库25",@"点赞动画26",@"动画学习27"];
     tableView.tableFooterView = [[UIView alloc] init];
     
     
@@ -149,96 +149,102 @@
             break;
 
 
-        case 10:
+        case 11:
         {
             PickerViewController *vc=[[PickerViewController alloc]init];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
-        case 11:
+        case 12:
         {
             BadgeViewController *vc=[[BadgeViewController alloc]init];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
-        case 12:
+        case 13:
         {
             BDViewController *vc=[[BDViewController alloc]init];
             [self.navigationController pushViewController:vc animated:YES];
         }
 
             break;
-        case 13:
+        case 14:
         {
             NJDTestViewController *vc=[[NJDTestViewController alloc]init];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
-        case 14:
+        case 15:
         {
              NineViewController *vc=[[NineViewController alloc]init];
             [self.navigationController pushViewController:vc animated:YES];
         }
 
             break;
-        case 15:
+        case 16:
         {
            
         }
             break;
 
-        case 16:
+        case 17:
         {
             KeyboardViewController *vc=[[KeyboardViewController alloc]init];
             [self.navigationController pushViewController:vc animated:YES];
         }
 
             break;
-        case 17:
+        case 18:
         {
             AlertPickerViewController *vc=[[AlertPickerViewController alloc]init];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
-        case 18:
+        case 19:
         {
             DateViewController *vc=[[DateViewController alloc]init];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
-        case 19:
+        case 20:
         {
             UpViewController *vc=[[UpViewController alloc]init];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
-        case 20:
+        case 21:
         {
             TaoBaoViewController *vc=[[TaoBaoViewController alloc]init];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
-        case 21:
+        case 22:
         {
             MulChooseViewController *vc=[[MulChooseViewController alloc]init];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
-        case 22:
+        case 23:
         {
             TimeController *vc=[[TimeController alloc]init];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
-        case 23:
+        case 24:
         {
             ImagePicViewController *vc=[[ImagePicViewController alloc]init];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
-        case 24:
+        case 25:
         {
             LikeBtnController *vc=[[LikeBtnController alloc]init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 26:
+        {
+            AnimateVC *vc=[[AnimateVC alloc]init];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;

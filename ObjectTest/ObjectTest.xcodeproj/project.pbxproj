@@ -11,6 +11,7 @@
 		D348EF682064935600833ADE /* TimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D348EF672064935600833ADE /* TimeController.m */; };
 		D348EF6C206493B400833ADE /* CountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = D348EF6B206493B400833ADE /* CountDown.m */; };
 		D38207552081EF080037191A /* LSEditCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = D38207532081EF080037191A /* LSEditCommentView.m */; };
+		D3A1ED5820F484F3003AEB24 /* AnimateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A1ED5720F484F3003AEB24 /* AnimateVC.m */; };
 		D3B03B0D20E373B000698234 /* AnimateController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B03B0C20E373B000698234 /* AnimateController.m */; };
 		D3B03B0F20E37B4A00698234 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B03B0E20E37B4A00698234 /* QuartzCore.framework */; };
 		D3DE7A7C20EC68C70041E857 /* HudAleretController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DE7A7B20EC68C70041E857 /* HudAleretController.m */; };
@@ -300,6 +301,8 @@
 		D348EF6B206493B400833ADE /* CountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDown.m; sourceTree = "<group>"; };
 		D38207532081EF080037191A /* LSEditCommentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSEditCommentView.m; sourceTree = "<group>"; };
 		D38207542081EF080037191A /* LSEditCommentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSEditCommentView.h; sourceTree = "<group>"; };
+		D3A1ED5620F484F3003AEB24 /* AnimateVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimateVC.h; sourceTree = "<group>"; };
+		D3A1ED5720F484F3003AEB24 /* AnimateVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimateVC.m; sourceTree = "<group>"; };
 		D3B03B0B20E373B000698234 /* AnimateController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimateController.h; sourceTree = "<group>"; };
 		D3B03B0C20E373B000698234 /* AnimateController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimateController.m; sourceTree = "<group>"; };
 		D3B03B0E20E37B4A00698234 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -828,6 +831,15 @@
 			children = (
 			);
 			path = IHKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		D3A1ED5520F484DC003AEB24 /* 动画学习 */ = {
+			isa = PBXGroup;
+			children = (
+				D3A1ED5620F484F3003AEB24 /* AnimateVC.h */,
+				D3A1ED5720F484F3003AEB24 /* AnimateVC.m */,
+			);
+			path = "动画学习";
 			sourceTree = "<group>";
 		};
 		D3B03B0A20E373A100698234 /* animate动画效果 */ = {
@@ -1804,6 +1816,7 @@
 		D57860761D85484C002F5F64 /* 主界面 */ = {
 			isa = PBXGroup;
 			children = (
+				D3A1ED5520F484DC003AEB24 /* 动画学习 */,
 				D3DE7A7920EC68020041E857 /* Hud提示框 */,
 				D3E5BA8D20EB565C004FECFA /* 点赞动画 */,
 				D3E5BA2E20E9F1C7004FECFA /* 多选图片库 */,
@@ -2737,6 +2750,7 @@
 				D57860D41D85484C002F5F64 /* NSArray+MASAdditions.m in Sources */,
 				D56E45A11DBF2E0E00A85D5F /* LPTimerWeakTarget.m in Sources */,
 				D57860BC1D85484C002F5F64 /* AdvertiseView.m in Sources */,
+				D3A1ED5820F484F3003AEB24 /* AnimateVC.m in Sources */,
 				D508F3CF1D8FDEFC0037D860 /* PickerViewController.m in Sources */,
 				D50331E11D9268A900FFF12D /* README.md in Sources */,
 				D56E459E1DBF2E0E00A85D5F /* LPImageContentView.m in Sources */,
