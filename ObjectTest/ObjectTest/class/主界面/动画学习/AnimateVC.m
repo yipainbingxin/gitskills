@@ -15,7 +15,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title=@"基础动画";
-    NSLog(@"基础动画的使用");
     _redview=[[UIView alloc]initWithFrame:CGRectMake(100, 100, 30, 30)];
     _redview.backgroundColor=[UIColor redColor];
     [self.view addSubview:_redview];
